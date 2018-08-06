@@ -8,12 +8,6 @@
 			<span v-if="!user.isStalking"><a @click="stalk">%fa:user-secret% %i18n:@stalk%</a></span>
 		</p>
 	</div>
-	<div class="action-form">
-		<button class="mute ui" @click="user.isMuted ? unmute() : mute()" v-if="$store.state.i.id != user.id">
-			<span v-if="user.isMuted">%fa:eye% %i18n:@unmute%</span>
-			<span v-if="!user.isMuted">%fa:eye-slash% %i18n:@mute%</span>
-		</button>
-		<button class="mute ui" @click="list">%fa:list% %i18n:@add-to-list%</button>
 	</div>
 </div>
 </template>
@@ -41,26 +35,6 @@ export default Vue.extend({
 				userId: this.user.id
 			}).then(() => {
 				this.user.isStalking = false;
-			}, () => {
-				alert('error');
-			});
-		},
-
-		mute() {
-			(this as any).api('mute/create', {
-				userId: this.user.id
-			}).then(() => {
-				this.user.isMuted = true;
-			}, () => {
-				alert('error');
-			});
-		},
-
-		unmute() {
-			(this as any).api('mute/delete', {
-				userId: this.user.id
-			}).then(() => {
-				this.user.isMuted = false;
 			}, () => {
 				alert('error');
 			});

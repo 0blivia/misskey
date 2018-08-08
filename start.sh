@@ -1,1 +1,0 @@
-/sbin/start-stop-daemon -S /usr/bin/node /var/www/misskey/built -p /run/misskey.pid

@@ -1,0 +1,60 @@
+Notfreespee.ch Account and Abuse policy:
+
+By registering an account on notfreespee.ch, you understand that this website is not a company or a charity project. It's, instead, my own take on social networking, hopefully done /right/, as all social media fucking sucks.
+
+I have set up these policies both to clear up any potential conflicts between moderation and to avoid towering costs from running a social platform. I hope that they are not too much a bother to you. 
+
+Accounts on this website can be revoked for any reason. However, this is federated, and if you feel that my take on delivery of social media is wrong for whatever reason, you can make your own instance either basing yourself on my own fork of the software[0] (misskey) or by using the original source software[1].
+
+Rules:
+1.0.0. Account creation and deletion rules:
+1.0.1 Unused accounts will be deleted by the software automatically based on the following chart:
+Newly created accounts will be deleted within 2 weeks of their creation if they have made less than 10 posts.
+Older accounts will be deleted within 3 months of their last post unless if they have contributed a significant amount of posts to the website. Anything more than a 1000 post would account as significant.
+1.0.2 This site not designed to cater to celebrities. They are, instead, encouraged to host their own federated instance of the software[1] if they wish to participate with the federation. 
+
+If, however, they wish to use our platform at all costs, they will have to pay the specific amount of 5 dollars monthly to the good doctor[2]. Towering cost associated with having celebrities and their userbase are what makes the cost necessary, and the costs are non-negotiable, no matter who you are.
+1.0.3 Followbots will be banned on sight. What accounts for a followbot is as such:
+
+Doesn't post
+Follows a certain amount of users.
+
+The algorythms should take care of most of them. If recurring from a certain IP or set of IP, the IPs will be banned for an increasing amount of time; From a week, to a month, to a full year, to 5 years if still recurring. 
+1.0.4 Spambots will be banned. What accounts for a spambot is as such:
+
+Posts content unrelated to the discussion at hand.
+Links to commercial websites.
+Enters private messages impromptu for advertising.
+
+If recurring from a certain IP or set of IP, the IPs will be banned for an increasing amount of time; From a week, to a month, to a full year, to 5 years if still recurring. 
+
+1.0.5 Scraper bots and RSS bots are disallowed.
+As an addendum to the rule, quote bots or quote spam is disallowed. 
+
+They, however, can freely federate if they are on their own bot friendly federation. 
+2.0.0 Acceptable and unacceptable behavior:
+2.0.1 The NSFW guidelines:
+NSFW is allowed under the following circumstances: 
+Depicts legal pornography within the State of California. This means most things are allowed, except the following: 
+Real child pornography.
+Real beastiality pornography.
+Real footage of crime with sexual intent.
+Rotoscoped child content or anything resembling real child pornography.
+
+The following are allowed under all circumstances:
+Depicted minor sex (that is, drawn or otherwise identifiable as "fake").
+Depicted beastiality.
+Depicted gore.
+Depitched crime. 
+
+Do not bother me with this.
+
+2.0.2 Doxes of users of the site are disallowed under all circumstances and will result in immediate account revocation. 
+
+3.0.0 Exceptions
+
+3.0.1 I can make exceptions to any or all of the rules if I deem it so. That is the benefit of being BDFL.
+
+[0]: https://github.com/gutfuckllc/misskey
+[1]: https://github.com/syuilo/misskey
+[2]: https://www.patreon.com/gutfuckllc
